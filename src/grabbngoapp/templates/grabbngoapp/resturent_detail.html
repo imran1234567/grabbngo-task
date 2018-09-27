@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<div class="jumbotron" style="margin-top:8%;">
+        <h1 class="display-4">{{ object.location }}</h1>
+        <p class="lead">{{ object.content }}</p>
+        <hr class="my-4">
+        <p>{{ object.user }}</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">{{ object.timestamp|timesince }}</a>
+      </div>
+
+
+{% endblock %}
