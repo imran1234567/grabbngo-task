@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row" style="margin-top:8%;">
+        {% for object in object_list %}
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">{{ object.content }}</p>
+              <span>{{object.location}} |  {{ object.user }}</span><br>
+              <span>{{ object.timestamp|timesince }} ago</span><br>
+              <a href='{{ object.get_absolute_url }}' class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        {% empty %}
+        <p>No resturent listed yet with this address.</p>
+        {% endfor %}
+      </div>
+
+{% endblock%}
