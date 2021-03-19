@@ -66,7 +66,7 @@ django-taggit==0.22.2
 django-test-plus==1.1.0
 django-widget-tweaks==1.4.2
 django-youtubefield==0.1a1
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 DjangoSEO==1.0
 dnspython==1.15.0
 docutils==0.14
