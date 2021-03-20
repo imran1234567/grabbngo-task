@@ -91,7 +91,7 @@ ipython==5.7.0
 ipython-genutils==0.2.0
 isort==4.3.4
 jdcal==1.4
-Jinja2==2.10
+Jinja2==2.11.3
 juspayp3==1.0.1
 keyring==10.6.0
 keyrings.alt==3.0
