@@ -146,7 +146,7 @@ razorpay==1.1.1
 redis==2.10.6
 regex==2018.6.6
 requests==2.18.4
-rsa==3.4.2
+rsa==4.1
 scandir==1.7
 SecretStorage==2.3.1
 simplegeneric==0.8.1
