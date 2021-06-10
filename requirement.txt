@@ -29,7 +29,7 @@ daphne==1.4.2
 decorator==4.3.0
 diff-match-patch==20121119
 dj-database-url==0.5.0
-Django==1.11.13
+Django==2.2.24
 django-any-urlfield==2.4.2
 django-bootstrap-datepicker-widget==0.1
 django-bootstrap-form==3.4
