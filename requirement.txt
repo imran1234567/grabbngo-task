@@ -165,7 +165,7 @@ termcolor==1.1.0
 text-unidecode==1.2
 tox==3.0.0
 traitlets==4.3.2
-Twisted==18.4.0
+Twisted==22.1.0
 txaio==2.10.0
 typing==3.6.4
 unicodecsv==0.14.1
